@@ -10,19 +10,18 @@ import Drawer from '@mui/material/Drawer';
 
 
 
-
-// Sample data for content
 const allContent = [
-    { id: '1', type: 'Music', title: 'Ki Kariye', image: '/image1.png', duration: 225, album: 'Code Name Tiranga', file: '/assets/Ki_Kariye_-_Code_Name_Tiranga_128_Kbps.mp3' },
-    { id: '2', type: 'Music', title: 'Tu Banke Hawa', image: '/image2.png', duration: 240, album: 'Dhokha Round D Corner', file: '/assets/Tu_Banke_Hawa_-_Dhokha_Round_D_Corner_128_Kbps.mp3' },
-    { id: '3', type: 'Music', title: 'Dil De Diya Hai', image: '/image3.png', duration: 210, album: 'Thank God', file: '/assets/Dil_De_Diya_Hai_-_Thank_God_128_Kbps.mp3' },
-    { id: '4', type: 'Music', title: 'Hume Tumse Pyaar Kitna (Female)', image: '/image4.png', duration: 255, album: 'Hume Tumse Pyaar Kitna', file: '/assets/Hume_Tumse_Pyaar_Kitna_-_Female_-_Hume_Tumse_Pyaar_Kitna_128_Kbps.mp3' },
-    { id: '5', type: 'Music', title: 'Song 3', image: '/imag6.jpg', duration: 240, album: 'Album 3', file: '/assets/song3.mp3' },
-    { id: '6', type: 'Podcast', title: 'Podcast 3', image: '/imag3.jpg', album: 'Podcast Album' },
-    { id: '7', type: 'Live', title: 'Live Event 1', image: '/imag7.jpg', album: 'Live Album' },
-    { id: '8', type: 'Radio', title: 'Radio Station 1', image: '/imag8.jpg', album: 'Radio Album' },
-];
-
+    { id: '1', type: 'Music', title: 'Ki Kariye', image: process.env.PUBLIC_URL + '/image1.png', duration: 225, album: 'Code Name Tiranga', file: process.env.PUBLIC_URL + '/assets/Ki_Kariye_-_Code_Name_Tiranga_128_Kbps.mp3' },
+    { id: '2', type: 'Music', title: 'Tu Banke Hawa', image: process.env.PUBLIC_URL + '/image2.png', duration: 240, album: 'Dhokha Round D Corner', file: process.env.PUBLIC_URL + '/assets/Tu_Banke_Hawa_-_Dhokha_Round_D_Corner_128_Kbps.mp3' },
+    { id: '3', type: 'Music', title: 'Dil De Diya Hai', image: process.env.PUBLIC_URL + '/image3.png', duration: 210, album: 'Thank God', file: process.env.PUBLIC_URL + '/assets/Dil_De_Diya_Hai_-_Thank_God_128_Kbps.mp3' },
+    { id: '4', type: 'Music', title: 'Hume Tumse Pyaar Kitna (Female)', image: process.env.PUBLIC_URL + '/image4.png', duration: 255, album: 'Hume Tumse Pyaar Kitna', file: process.env.PUBLIC_URL + '/assets/Hume_Tumse_Pyaar_Kitna_-_Female_-_Hume_Tumse_Pyaar_Kitna_128_Kbps.mp3' },
+    { id: '5', type: 'Music', title: 'Song 3', image: process.env.PUBLIC_URL + '/imag6.jpg', duration: 240, album: 'Album 3', file: process.env.PUBLIC_URL + '/assets/song3.mp3' },
+    { id: '6', type: 'Podcast', title: 'Podcast 3', image: process.env.PUBLIC_URL + '/imag3.jpg', album: 'Podcast Album' },
+    { id: '7', type: 'Live', title: 'Live Event 1', image: process.env.PUBLIC_URL + '/imag7.jpg', album: 'Live Album' },
+    { id: '8', type: 'Radio', title: 'Radio Station 1', image: process.env.PUBLIC_URL + '/imag8.jpg', album: 'Radio Album' },
+  ];
+  
+  
 function App() {
   const [selectedContent, setSelectedContent] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
@@ -274,7 +273,7 @@ function App() {
   className="now-playing"
   sx={{
     padding: { xs: '10px', md: '20px' },
-    backgroundColor: '#f4f4f4',
+    // backgroundColor: '#f4f4f4',
     display: 'flex',
     flexDirection: { xs: 'row', md: 'column' },
     alignItems: 'center',
