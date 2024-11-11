@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/music-player/static/css/main.b6028a53.css",
-    "main.js": "/music-player/static/js/main.3f0b7a72.js",
-    "index.html": "/music-player/index.html",
-    "main.b6028a53.css.map": "/music-player/static/css/main.b6028a53.css.map",
-    "main.3f0b7a72.js.map": "/music-player/static/js/main.3f0b7a72.js.map"
+    "main.css": "/ShivamMusic/static/css/main.b6028a53.css",
+    "main.js": "/ShivamMusic/static/js/main.b2187108.js",
+    "index.html": "/ShivamMusic/index.html",
+    "main.b6028a53.css.map": "/ShivamMusic/static/css/main.b6028a53.css.map",
+    "main.b2187108.js.map": "/ShivamMusic/static/js/main.b2187108.js.map"
   },
   "entrypoints": [
     "static/css/main.b6028a53.css",
-    "static/js/main.3f0b7a72.js"
+    "static/js/main.b2187108.js"
   ]
 }
