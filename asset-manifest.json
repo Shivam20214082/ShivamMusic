@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ShivamMusic/static/css/main.b6028a53.css",
-    "main.js": "/ShivamMusic/static/js/main.b2187108.js",
+    "main.js": "/ShivamMusic/static/js/main.86040aff.js",
     "index.html": "/ShivamMusic/index.html",
     "main.b6028a53.css.map": "/ShivamMusic/static/css/main.b6028a53.css.map",
-    "main.b2187108.js.map": "/ShivamMusic/static/js/main.b2187108.js.map"
+    "main.86040aff.js.map": "/ShivamMusic/static/js/main.86040aff.js.map"
   },
   "entrypoints": [
     "static/css/main.b6028a53.css",
-    "static/js/main.b2187108.js"
+    "static/js/main.86040aff.js"
   ]
 }
